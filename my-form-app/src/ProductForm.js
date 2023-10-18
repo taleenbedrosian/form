@@ -17,6 +17,7 @@ function ProductForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Submitted Data:', product);
+    alert('You have submitted the form.')
   };
 
   const handleCancel = () => {
